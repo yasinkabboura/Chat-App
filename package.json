@@ -4,7 +4,7 @@
   "description": "Chat app using socket.io and nodejs",
   "main": "index.js",
   "scripts": {
-    "devStart":"nodemon server.js"
+    "devStart": "nodemon server.js"
   },
   "author": "Yasin Kabboura",
   "license": "MIT",

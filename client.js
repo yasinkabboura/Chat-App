@@ -1,4 +1,4 @@
-const socket = io("http://localhost:4010");
+const socket = io("http://localhost:4010", { transports: ["websocket"] });
 const chatContainer = document.getElementById("chat_container");
 const sendForm = document.getElementById("send_form");
 const textMessage = document.getElementById("text_message");
