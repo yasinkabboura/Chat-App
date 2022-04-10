@@ -1,0 +1,17 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat app using socket.io and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "devStart":"nodemon server.js"
+  },
+  "author": "Yasin Kabboura",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

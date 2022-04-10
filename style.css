@@ -1,0 +1,33 @@
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#chat_container {
+  width: 80%;
+}
+
+#chat_container div {
+  background-color: #ccc;
+  padding: 5px;
+}
+
+#chat_container div:nth-child(2n) {
+  background-color: #fff;
+}
+
+#send_form {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: white;
+
+  width: 80%;
+  display: flex;
+}
+
+#message-input {
+  flex-grow: 1;
+}
